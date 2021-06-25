@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(182, 107, 77);
+}
+ 
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 135px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2{
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+ 
+.container {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+ 
+.navbar-brand {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 25px;
+  }
+
+  .column img {
+    margin-top: 25px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
